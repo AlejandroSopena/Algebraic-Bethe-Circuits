@@ -108,18 +108,3 @@ class BetheCircuit:
         r_matrix[1, 1] = r_matrix[2, 2] = c
         r_matrix[1, 2] = r_matrix[2, 1] = b
         return r_matrix
-
-
-nspins = 6
-nmagnons = 4
-roots = [1, 2, 3, 4]
-delta = 0.2
-
-v = BetheCircuit(nspins, nmagnons, delta)
-state1 = v.exact(roots)().numpy()
-state1 = [state1[i] for i in range(0, len(state1), 2 ** nmagnons)]
-state1 /= np.linalg.norm(state1)
-state2 = v.aba(roots)().numpy()
-print('overlap: ', np.abs(np.dot(np.conjugate(state1), state2)))
-print('norm exact', norm(state1))
-print('norm circuit', norm(state2))
