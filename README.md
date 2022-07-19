@@ -13,7 +13,7 @@ This repository contains the code to reproduce the numerical implementations pre
 - `qibojit==0.04`
 
 ## Usage
-[`Pk_gates.py`](https://github.com/AlejandroSopena/Algebraic_Bethe_Circuits/blob/main/Pk_gates.py) contains the functions to generate the matrices <img src="https://render.githubusercontent.com/render/math?math=P_k"> (unitaries for <img src="https://render.githubusercontent.com/render/math?math=k<M"> and isometries <img src="https://render.githubusercontent.com/render/math?math=P_k|0\rangle"> for <img src="https://render.githubusercontent.com/render/math?math=k\geq M">).
+[`Pk_gates.py`](https://github.com/AlejandroSopena/Algebraic_Bethe_Circuits/blob/main/Pk_gates.py) contains the functions to generate the matrices <img src="https://render.githubusercontent.com/render/math?math=P_k"> (unitaries for <img src="https://render.githubusercontent.com/render/math?math=k<M"> and isometries <img src="https://render.githubusercontent.com/render/math?math=P_k|0\rangle"> for $k\geq M$).
 ```python
 from Pk_gates import full_pink
 
