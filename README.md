@@ -24,7 +24,7 @@ delta=0.5
 [Pk,Gk]=full_pink(nspins,roots,delta)
 ```
 
-[`bethe_circuit.py`](https://github.com/AlejandroSopena/Algebraic-Bethe-Circuits/blob/main/bethe_circuit.py) defines the class `BetheCircuit` which implements the Algebraic Bethe Ansatz for the XXZ model with both the non-unitary matrices <img src="https://render.githubusercontent.com/render/math?math=R"> and the unitary matrices <img src="https://render.githubusercontent.com/render/math?math=P_k">. <img src="https://render.githubusercontent.com/render/math?math=k\geq M">
+[`bethe_circuit.py`](https://github.com/AlejandroSopena/Algebraic-Bethe-Circuits/blob/main/bethe_circuit.py) defines the class `BetheCircuit` which implements the Algebraic Bethe Ansatz for the XXZ model with both the non-unitary matrices <img src="https://render.githubusercontent.com/render/math?math=R"> and the unitary matrices <img src="https://render.githubusercontent.com/render/math?math=P_k">. <img src="https://render.githubusercontent.com/render/math?math=$k\geq M$">
 ```python
 nspins = 4
 nmagnons = 2
