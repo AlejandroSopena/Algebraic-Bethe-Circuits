@@ -13,7 +13,7 @@ This repository contains the code to reproduce the numerical implementations pre
 - `qibojit==0.04`
 
 ## Usage
-[`Pk_gates.py`](https://github.com/AlejandroSopena/Algebraic_Bethe_Circuits/blob/main/Pk_gates.py) contains the functions to generate the matrices <img src="https://render.githubusercontent.com/render/math?math=P_k"> (unitaries for <img src="https://render.githubusercontent.com/render/math?math=k<M"> and isometries <img src="https://render.githubusercontent.com/render/math?math=P_k|0\rangle"> for $k\geq M$).
+[`Pk_gates.py`](https://github.com/AlejandroSopena/Algebraic_Bethe_Circuits/blob/main/Pk_gates.py) contains the functions to generate the matrices $P_k$ (unitaries for $k<M$ and isometries $P_k|0\rangle$ for $k\geq M$).
 ```python
 from Pk_gates import full_pink
 
@@ -24,7 +24,7 @@ delta=0.5
 [Pk,Gk]=full_pink(nspins,roots,delta)
 ```
 
-[`bethe_circuit.py`](https://github.com/AlejandroSopena/Algebraic-Bethe-Circuits/blob/main/bethe_circuit.py) defines the class `BetheCircuit` which implements the Algebraic Bethe Ansatz for the XXZ model with both the non-unitary matrices <img src="https://render.githubusercontent.com/render/math?math=R"> and the unitary matrices <img src="https://render.githubusercontent.com/render/math?math=P_k">. <img src="https://render.githubusercontent.com/render/math?math=$k\geq M$">
+[`bethe_circuit.py`](https://github.com/AlejandroSopena/Algebraic-Bethe-Circuits/blob/main/bethe_circuit.py) defines the class `BetheCircuit` which implements the Algebraic Bethe Ansatz for the XXZ model with both the non-unitary matrices $R$ and the unitary matrices $P_k$.
 ```python
 nspins = 4
 nmagnons = 2
