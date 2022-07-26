@@ -1,5 +1,5 @@
 # Algebraic Bethe Circuits
-[![DOI](https://zenodo.org/badge/455221135.svg)](https://zenodo.org/badge/latestdoi/number)
+[![DOI](https://zenodo.org/badge/515719023.svg)](https://zenodo.org/badge/latestdoi/515719023)
 
 This repository contains the code to reproduce the numerical implementations presented in the manuscript ["Algebraic Bethe Circuits"](https://arxiv.org/abs/2202.04673).
 
